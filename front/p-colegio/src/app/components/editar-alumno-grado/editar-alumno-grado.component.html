@@ -1,0 +1,45 @@
+<div class="container">
+  <h2>{{ isEditing ? 'Editar AlumnoGrado' : 'Agregar AlumnoGrado' }}</h2>
+
+  <form (ngSubmit)="onSave()" #form="ngForm">
+    <div class="form-group">
+      <label for="alumno">Alumno:</label>
+      <select id="alumno" [(ngModel)]="alumnoGrado.alumnoId" name="alumnoId" required>
+        <option value="" disabled>Seleccione un alumno</option>
+        <option *ngFor="let alumno of alumnos" [value]="alumno.id">
+          {{ alumno.nombres }} {{ alumno.apellidos }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="grado">Grado:</label>
+      <select id="grado" [(ngModel)]="alumnoGrado.gradoId" name="gradoId" required>
+        <option value="" disabled>Seleccione un grado</option>
+        <option *ngFor="let grado of grados" [value]="grado.id">
+          {{ grado.nombre }}
+        </option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="seccion">Seccion:</label>
+      <input
+        type="text"
+        id="seccion"
+        [(ngModel)]="alumnoGrado.seccion"
+        name="seccion"
+        required
+      />
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="guardar-button" mat-raised-button color="primary">
+        <span class="material-icons">save</span> Guardar
+      </button>
+      <button type="button" class="cancel-button" (click)="onCancel()">
+        <span class="material-icons">cancel</span> Cancelar
+      </button>
+    </div>
+  </form>
+</div>

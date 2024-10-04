@@ -1,0 +1,45 @@
+<div class="profesor-container">
+    <h2>Profesores</h2>
+    
+    <!-- Buscador -->
+    <div class="search-container">
+      <input 
+        type="text" 
+        placeholder="Buscar por nombre, apellido o género"
+        [(ngModel)]="searchQuery"
+      />
+      <button class="add-button" color="primary" (click)="addProfesor()">
+        <span class="material-icons">add</span>
+      </button>
+    </div>
+  
+    <!-- Tabla -->
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Género</th>
+          <th>Acciones</th> 
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let profesor of filteredProfesores">
+          <td>{{ profesor.id }}</td>
+          <td>{{ profesor.nombres }}</td>
+          <td>{{ profesor.apellidos }}</td>
+          <td>{{ profesor.genero }}</td>
+          <td>
+            <button class="edit-button" mat-icon-button (click)="updateProfesor(profesor)">
+               <span class="material-icons">edit</span>
+            </button>
+            <button class="delete-button" (click)="deleteProfesor(profesor.id)">
+                <span class="material-icons">delete</span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

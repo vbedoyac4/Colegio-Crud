@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vivia\\source\\repos\\Colegio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\data\\colegiodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:data\\colegiodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\controllers\\alumnogradocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:controllers\\alumnogradocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\models\\alumnogrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:models\\alumnogrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\controllers\\gradocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:controllers\\gradocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\models\\grado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:models\\grado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|c:\\users\\vivia\\source\\repos\\colegio\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A8403-8E6E-4251-9C45-A832165D3F33}|Colegio.csproj|solutionrelative:models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GradoController.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Controllers\\GradoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GradoController.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Controllers\\GradoController.cs",
+              "RelativeToolTip": "Controllers\\GradoController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAADwv0gAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:26:34.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfesorController.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Controllers\\ProfesorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfesorController.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Controllers\\ProfesorController.cs",
+              "RelativeToolTip": "Controllers\\ProfesorController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAcwE8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:23:16.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Controllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlumnoController.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "Controllers\\AlumnoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:49:59.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:46:37.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ColegioDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Data\\ColegioDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ColegioDbContext.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Data\\ColegioDbContext.cs",
+              "RelativeToolTip": "Data\\ColegioDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:43:35.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlumnoGrado.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Models\\AlumnoGrado.cs",
+              "RelativeDocumentMoniker": "Models\\AlumnoGrado.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Models\\AlumnoGrado.cs",
+              "RelativeToolTip": "Models\\AlumnoGrado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:41:58.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Grado.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Models\\Grado.cs",
+              "RelativeDocumentMoniker": "Models\\Grado.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Models\\Grado.cs",
+              "RelativeToolTip": "Models\\Grado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:39:25.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Models\\Profesor.cs",
+              "RelativeDocumentMoniker": "Models\\Profesor.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Models\\Profesor.cs",
+              "RelativeToolTip": "Models\\Profesor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:38:14.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Models\\Alumno.cs",
+              "RelativeDocumentMoniker": "Models\\Alumno.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Models\\Alumno.cs",
+              "RelativeToolTip": "Models\\Alumno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:36:28.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-03T20:32:04.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlumnoGradoController.cs",
+              "DocumentMoniker": "C:\\Users\\vivia\\source\\repos\\Colegio\\Controllers\\AlumnoGradoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlumnoGradoController.cs",
+              "ToolTip": "C:\\Users\\vivia\\source\\repos\\Colegio\\Controllers\\AlumnoGradoController.cs",
+              "RelativeToolTip": "Controllers\\AlumnoGradoController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAqwEEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T00:31:29.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

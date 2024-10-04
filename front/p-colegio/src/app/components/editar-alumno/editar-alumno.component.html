@@ -1,0 +1,56 @@
+<div class="container">
+  <h2>{{ isEditing ? 'Editar Alumno' : 'Agregar Alumno' }}</h2>
+
+  <form>
+    <div class="form-group">
+      <label for="nombres">Nombres:</label>
+      <input
+        type="text"
+        id="nombres"
+        [(ngModel)]="alumno.nombres"
+        name="nombres"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="apellidos">Apellidos:</label>
+      <input
+        type="text"
+        id="apellidos"
+        [(ngModel)]="alumno.apellidos"
+        name="apellidos"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="genero">Género:</label>
+      <select id="genero" [(ngModel)]="alumno.genero" name="genero" required>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+      <input
+        type="date"
+        id="fechaNacimiento"
+        [ngModel]="alumno.fechaNacimiento | date:'yyyy-MM-dd'"
+        (ngModelChange)="onDateChange($event)"
+        name="fechaNacimiento"
+        required
+      />
+    </div>
+
+    <div class="form-actions">
+      <button class="guardar-button" mat-raised-button color="primary" (click)="onSave()">
+        <span class="material-icons">save</span> Guardar
+      </button>
+      <button class="cancel-button" (click)="onCancel()">
+        <span class="material-icons">cancel</span> Cancelar
+      </button>
+    </div>
+  </form>
+</div>

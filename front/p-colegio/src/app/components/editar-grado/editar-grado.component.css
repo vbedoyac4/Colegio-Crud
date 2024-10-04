@@ -1,0 +1,93 @@
+.container{
+    background-color: #00798c;
+}
+
+h2 {
+    padding-top: 5%;
+    text-align: center;
+    color: #f4f4f4;
+    font-weight: 450;
+    font-size: 38px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+    background-color: #00798c;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .form-group label {
+    font-weight: 450;
+    margin-bottom: 5px;
+    color: #f4f4f4;;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    display: flex;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  button span.material-icons {
+    font-size: 18px;
+  } 
+
+  .guardar-button{
+    width: 100px;
+    margin-left: 25%;
+    border: 1px solid #06d6a0; 
+    background-color: #f4f4f4;
+    padding: 3%;
+    border-radius: 5px;
+    color: #06d6a0;
+  }
+
+  .guardar-button .material-icons {
+    color: #06d6a0;
+  }
+
+  .guardar-button:hover{
+    background-color: #e9e3e3;
+    padding: 3%;
+  }
+
+
+  .cancel-button{
+    margin-left: 10%;
+    width: 100px;
+    border: 1px solid #ef476f; 
+    background-color: #f4f4f4;
+    padding: 3%;
+    border-radius: 5px;
+    color: #ef476f;
+  }
+
+  .cancel-button .material-icons {
+    color: #ef476f;
+  }
+
+  .cancel-button:hover{
+    background-color: #e9e3e3;
+    padding: 3%;
+  }
+  

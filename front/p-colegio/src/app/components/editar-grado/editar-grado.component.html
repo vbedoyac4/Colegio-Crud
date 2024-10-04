@@ -1,0 +1,35 @@
+<div class="container">
+  <h2>{{ isEditing ? 'Editar Grado' : 'Agregar Grado' }}</h2>
+
+  <form>
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input
+        type="text"
+        id="nombre"
+        [(ngModel)]="grado.nombre"
+        name="nombre"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="profesor">Profesor:</label>
+      <select id="profesor" [(ngModel)]="grado.profesorId" name="profesor" required>
+        <option value="" disabled selected>Seleccione un profesor</option>
+        <option *ngFor="let profesor of profesores" [value]="profesor.id">
+          {{ profesor.nombres }} {{ profesor.apellidos }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-actions">
+      <button class="guardar-button" mat-raised-button color="primary" (click)="onSave()">
+        <span class="material-icons">save</span> Guardar
+      </button>
+      <button class="cancel-button" (click)="onCancel()">
+        <span class="material-icons">cancel</span> Cancelar
+      </button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,43 @@
+<div class="grado-container">
+    <h2>Grados</h2>
+    
+    <!-- Buscador -->
+    <div class="search-container">
+      <input 
+        type="text" 
+        placeholder="Buscar por nombre o profesor" 
+        [(ngModel)]="searchQuery"
+      />
+      <button class="add-button" color="primary" (click)="addGrado()">
+        <span class="material-icons">add</span>
+      </button>
+    </div>
+  
+    <!-- Tabla -->
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Profesor</th>
+          <th>Acciones</th> 
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let grado of filteredGrados">
+          <td>{{ grado.id }}</td>
+          <td>{{ grado.nombre }}</td>
+          <td>{{ grado.profesor }}</td>
+          <td>
+            <button class="edit-button" mat-icon-button (click)="updateGrado(grado)">
+               <span class="material-icons">edit</span>
+            </button>
+            <button class="delete-button" (click)="deleteGrado(grado.id)">
+                <span class="material-icons">delete</span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
